@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo -- IDB</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>My Todo List</h1>
+      <!-- We should be able to add a todo -->
+      <form id="add-todo-form">
+        <input
+          type="text"
+          name="new-todo"
+          id="new-todo"
+          placeholder="Type new item... "
+        />
+        <button type="submit">Add</button>
+      </form>
+
+      <ul class="todo-list">
+        <!-- <li><input type="checkbox" /> <span>First item to be done</span></li>
+        <li><input type="checkbox" /> <span>Second item to be done</span></li>
+        <li class="done">
+          <input type="checkbox" checked />
+          <span> Third item to be done</span>
+        </li> -->
+      </ul>
+    </main>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

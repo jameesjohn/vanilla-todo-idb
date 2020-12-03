@@ -1,0 +1,62 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+main {
+  margin-top: 20px;
+  width: 40vw;
+  border: solid 1px #dddddd;
+  padding: 15px;
+  box-shadow: 0 0 3px #dddddd;
+  border-radius: 5px;
+}
+h1 {
+  text-align: center;
+}
+form {
+  display: flex;
+  justify-content: space-between;
+}
+form input {
+  flex-basis: 350px;
+  height: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: solid 1px #aaaaaa;
+}
+form button {
+  padding: 5px 25px;
+  border-radius: 5px;
+  border: solid 1px #dddddd;
+}
+ul {
+  padding: 0;
+}
+.done {
+  background-color: #efefef;
+  cursor: default;
+}
+.done:hover {
+  box-shadow: 0 0 3px #dddddd;
+}
+.done span {
+  text-decoration: line-through;
+}
+li {
+  list-style: none;
+  display: flex;
+  margin-bottom: 15px;
+  align-items: center;
+  box-shadow: 0 0 3px #dddddd;
+  padding-left: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: box-shadow 200ms;
+}
+li:hover {
+  box-shadow: 0 0 15px #cccccc;
+}
+li span {
+  width: 100%;
+  padding: 15px;
+}
